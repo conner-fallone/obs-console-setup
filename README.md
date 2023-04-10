@@ -14,20 +14,20 @@
 
 ## Q/A
 
-#### Q: My sound in my headphones becomes out of sync over time, but is still in sync on the stream. How do I fix this?
-#### A: It seems that there's no good way around this, and it's expected to happen over time. I would recommend following
-####    the steps here https://github.com/MarcusBuer/OBS-Anti-Mic-Monitoring-Desync to add a script to automatically disable
-####    and enable the Audio Input Capture. Alternatively, you can also click the Eye button on the Audio source occasionally
-####    to toggle it off and on again (may need to wait a few seconds in betwween).
+**Q: My sound in my headphones becomes out of sync over time, but is still in sync on the stream. How do I fix this?**\
+A: It seems that there's no good way around this, and it's expected to happen over time. I would recommend following
+   the steps here https://github.com/MarcusBuer/OBS-Anti-Mic-Monitoring-Desync to add a script to automatically disable
+   and enable the Audio Input Capture. Alternatively, you can also click the Eye button on the Audio source occasionally
+   to toggle it off and on again (may need to wait a few seconds in betwween).
 ![Troubleshooting - Audio Out of Sync](./screenshots/troubleshooting-audio-out-of-sync.png)
 
-#### Q: Do I need a separate microphone to my console?
-#### A: If you want to be able to talk in game or in console party chats, and are not able to use Discord, yes. If you are able
-####    to use Discord, you can join a voice chat on Discord and use your same headset for everything. To do this, you will want
-####    to change your OBS Settings > Audio > Global Audio Devices > Desktop Audio from Disabled to something other than your headset
-####    (hopefully your monitors have speakers, or a soundbar, etc). In the Audio Mixer in OBS, go to Advanced Audio Properties and 
-####    "Monitor and Output" your Desktop Audio (NOTE: doing it this way means every audio on your desktop will be broadcast to your
-####    stream, so please be aware of that). In Discord Settings, change your Input Device to be your headset
-####    mic if it isn't already, and your output device to match your Desktop Audio. Mute your desktop device if possible, or turn it
-####    down so you don't hear it, since you are already listening to audio in your headphones. Connect to the voice chat from your
-####    PC, and your console friends should be able to also join this voice chat from PlayStation / Xbox.
+**Q: Do I need a separate microphone to my console?**\
+A: If you want to be able to talk in game or in console party chats, and are not able to use Discord, yes. If you are able
+   to use Discord, you can join a voice chat on Discord and use your same headset for everything. To do this, you will want
+   to change your OBS Settings > Audio > Global Audio Devices > Desktop Audio from Disabled to something other than your headset
+   (hopefully your monitors have speakers, or a soundbar, etc). In the Audio Mixer in OBS, go to Advanced Audio Properties and 
+   "Monitor and Output" your Desktop Audio (NOTE: doing it this way means every audio on your desktop will be broadcast to your
+   stream, so please be aware of that). In Discord Settings, change your Input Device to be your headset
+   mic if it isn't already, and your output device to match your Desktop Audio. Mute your desktop device if possible, or turn it
+   down so you don't hear it, since you are already listening to audio in your headphones. Connect to the voice chat from your
+   PC, and your console friends should be able to also join this voice chat from PlayStation / Xbox.
