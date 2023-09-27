@@ -1,16 +1,31 @@
-# OBS w/ Console Capture Card + Headphones + No Chat Link Cable
+# OBS w/ Console Capture Card + Headphones + No Chat Link Cable (no desktop audio)
 
 1. Connect the headset to your PC (this will be used to talk to your stream, but hear your capture card audio)
 2. Connect a microphone to your console (this will be used only for talking in game or in party chats on console)
-2. Change Settings > Audio > Global Audio Devices to the following
+3. Change Settings > Audio > Global Audio Devices to the following
 > ![Global Audio Devices](./screenshots/global-audio-devices.png)
-3. Change Settings > Audio > Advanced to monitor your headset
+4. Change Settings > Audio > Advanced to monitor your headset
 > ![Advanced](./screenshots/audio-advanced.png)
-4. Add Video Capture Device source and name it the name of your capture card with “Video” at the end. Be sure to mute this in "Audio Mixer," note the red mute icon
+5. Add Video Capture Device source and name it the name of your capture card with “Video” at the end. Be sure to mute this in "Audio Mixer," note the red mute icon
 > ![Audio Mixer](./screenshots/audio-mixer.png)
-5. Add Audio Input Capture source and name it the name of your capture card with “Audio” at the end
-6. Set the Audio Input Capture from step #5 to "Monitor and Output." You can do this via the gear in the Audio Mixer.
+6. Add Audio Input Capture source and name it the name of your capture card with “Audio” at the end
+7. Set the Audio Input Capture from step #6 to "Monitor and Output." You can do this via the gear in the Audio Mixer.
 > ![Audio Mixer Advanced](./screenshots/audio-mixer-advanced.png)
+
+# OBS w/ Console Capture Card + Headphones + No Chat Link Cable (desktop audio)
+
+1. Connect the headset to your PC (this will be used to talk to your stream, but hear your capture card audio)
+2. Connect a microphone to your console (this will be used only for talking in game or in party chats on console)
+3. Change Settings > Audio > Global Audio Devices to the following (select your headset for Desktop Audio)
+> ![Global Audio Devices](./screenshots/global-audio-devices-desktop.png)
+4. Change Settings > Audio > Advanced to monitor your headset
+> ![Advanced](./screenshots/audio-advanced.png)
+5. Add Video Capture Device source and name it the name of your capture card with “Video” at the end. Be sure to mute this in "Audio Mixer," note the red mute icon
+> ![Audio Mixer](./screenshots/audio-mixer.png)
+6. Add Audio Input Capture source and name it the name of your capture card with “Audio” at the end
+7. Set the Audio Input Capture from step #6 to "Monitor Only (mute output)." You can do this via the gear in the Audio Mixer.
+8. Set the Desktop Audio to "Monitor and Output." You can do this via the gear in the Audio Mixer.
+> ![Audio Advanced Properties Desktop](./screenshots/advanced-audio-properties-desktop.png)
 
 ## Q/A
 
